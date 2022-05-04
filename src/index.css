@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 2vw;
+    height: 5vh;
+    padding: 5px;
+    background: rgb(20, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(20, 0, 36, 1) 0%,
+      rgba(99, 9, 121, 1) 22%,
+      rgba(255, 0, 234, 1) 100%
+    );
+    color: white;
+    font-size: 1.5rem;
+    justify-content: space-between;
+  }
+  .header-img {
+    height: 100%;
+  }
+  .meme-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 0px 10px 10px 0px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 0px 2px black;
+    text-indent: 5px;
+  }
+  .form-btn {
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border: 0;
+    background: rgb(20, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(99, 9, 121, 1) 22%,
+      rgba(255, 0, 234, 1) 100%
+    );
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .save-btn {
+    height: 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .meme-image-container {
+    height: 60vh;
+    width: 80vw;
+    margin: 20px;
+  }
+  .meme-random-image {
+    width: 90vw;
+  }
+  .share-btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .upper-text-content {
+    resize: both;
+    text-align: center;
+    position: relative;
+    top: 2%;
+    padding: 5px;
+    height: 6vh, auto;
+    width: 90vw;
+    background-color: white;
+    border-top: 1px solid black;
+    /* font-size: 2rem; */
+  }
+  .lower-text-content {
+    display: grid;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    top: -2%;
+    padding: 5px;
+    width: 90vw;
+    height: 6vh, auto;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .isHidden {
+    display: none;
+  }
+  .arrow-btn {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .main-main {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 2vw;
+    height: 15vh;
+    padding: 10px;
+    background: rgb(20, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(20, 0, 36, 1) 0%,
+      rgba(99, 9, 121, 1) 22%,
+      rgba(255, 0, 234, 1) 100%
+    );
+    color: white;
+    font-size: 2rem;
+  }
+  .header-img {
+    height: 100%;
+  }
+  .meme-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-field {
+    width: 600px;
+    padding: 10px;
+    margin: 0px 10px 10px 0px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0px 0px 2px black;
+    text-indent: 5px;
+  }
+  .form-btn {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    align-self: center;
+    border: 0;
+    background: rgb(20, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(99, 9, 121, 1) 22%,
+      rgba(255, 0, 234, 1) 100%
+    );
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .save-btn {
+    height: 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .meme-image-container {
+    align-self: center;
+    width: 400px;
+    margin: 20px;
+  }
+  .meme-random-image {
+    width: 400px;
+  }
+  .share-btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .upper-text-content {
+    text-align: center;
+    position: relative;
+    top: 2%;
+    padding: 5px;
+    height: 2vh, auto;
+    width: 400px;
+    background-color: white;
+    border-top: 1px solid black;
+  }
+  .lower-text-content {
+    text-align: center;
+    position: relative;
+    background-color: white;
+    top: -2%;
+    padding: 5px;
+    width: 400px;
+    height: 30vh, auto;
+    border-bottom: 1px solid black;
+  }
+  .isHidden {
+    display: none;
+  }
+}
