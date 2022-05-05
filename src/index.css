@@ -15,12 +15,12 @@
     height: 5vh;
     padding: 5px;
     background: rgb(20, 0, 36);
-    background: linear-gradient(
+    /* background: linear-gradient(
       90deg,
       rgba(20, 0, 36, 1) 0%,
       rgba(99, 9, 121, 1) 22%,
       rgba(255, 0, 234, 1) 100%
-    );
+    ); */
     color: white;
     font-size: 1.5rem;
     justify-content: space-between;
